@@ -28,6 +28,7 @@ local heatSinkTimes2 = {
 	show_recipe_icon = false,
 	show_recipe_icon_on_map = false,
 	selectable_in_game = false,
+	collision_mask = {layers = {}},
 }
 
 -- Create another dummy assembler for 5x the energy consumption, for heating towers.
